@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:4vh;
 }
 
 .cards {
@@ -35,10 +36,45 @@ body {
     background-color: white ;
 }
 
-.verificar {
+.button {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: #1B2430;
+    padding: 3vh;
+    color: white;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 1px black;
+    background-color: #1b2445;
+    cursor: pointer;
+    color: azure;
+}
+
+
+.siguiente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1B2430;
+    padding: 3vh;
+}
+
+.siguiente a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.siguiente:hover{
+    box-shadow: 1px 1px 1px black;
+    background-color: #1b2445;
+    cursor: pointer;
+    color: azure;
 }
 

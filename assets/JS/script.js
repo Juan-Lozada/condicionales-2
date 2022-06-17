@@ -10,15 +10,16 @@ verificar.addEventListener("click", function(){
     let cantidad = document.querySelector("#cantidad");
     
     if (total <= 10){
-        let stickers = `llevas ${total} stickers`
-        console.log(stickers)
-        info.innerHTML = "Puedes llevar los Stickers."
+        let stickers = `llevas ${total} stickers`;
+        console.log(stickers);
+        info.innerHTML = "Puedes llevar los Stickers.";
+        info.style.color = "green";
         cantidad.innerText = stickers;
         cantidad.style.color = "green";
         
     }
     else{
-        info.innerHTML = "No puedes llevar mas de 10 stickers."
-        info.style.color = 'red'
+        info.innerHTML = "No puedes llevar mas de 10 stickers.";
+        info.style.color = 'red';
     }
 });
